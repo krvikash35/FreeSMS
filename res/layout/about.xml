@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+            <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_marginTop="20dp"
+		        android:layout_weight="0"
+		        android:text="FreeSMS" />
+
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="Version 1.1.0" />
+
+		    <ImageView
+		        android:id="@+id/imageView1"
+		        android:layout_width="75dp"
+		        android:layout_height="75dp"
+		        android:layout_marginTop="-15dp"
+		        android:layout_gravity="center"
+		        android:src="@drawable/freesms_icon" />
+		
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:layout_marginTop="0dp"
+		        android:text="&#169; 2014 4th Year Project." />
+
+		    <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="All rights reserved." />			
+		</LinearLayout>
+		
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp">
+            
+            <TextView
+		        android:id="@+id/developedby"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:textStyle="bold"
+		        android:text="Developed By:" />
+
+		    <TextView
+		        android:id="@+id/underguidance"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:textStyle="bold"
+		        android:text="Under guidance of:" />
+		    
+		    <TextView
+		        android:id="@+id/developername"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/developedby"
+		        android:layout_marginLeft="5dp"
+		        android:textStyle="italic"
+		        android:text="vikash kumar \npankaj kumar rajak \nBachchan Mali" />
+            
+		    <TextView
+		        android:id="@+id/guidername"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/underguidance"
+		        android:layout_alignParentRight="true"
+		        android:textStyle="italic"
+		        android:text="Dr. Koushik Majumder \nAsst Prof, Dept of CSE" />
+
+		    <ImageView
+		        android:id="@+id/wbutlogo"
+		        android:layout_width="75dp"
+		        android:layout_height="75dp"
+		        android:layout_below="@+id/developername"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="20dp"
+		        android:src="@drawable/wbutlogo" />
+		   
+		    <TextView
+		        android:id="@+id/wbutaddress"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/wbutlogo"
+		        android:layout_centerHorizontal="true"
+		        android:layout_marginTop="10dp"
+		        android:textStyle="bold"
+		        android:text="WEST BENGAL UNIVERSITY OF TECHNOLOGY \nBF-142, Sector-1, Salt Lake Kolkata-700064" />
+		    
+        </RelativeLayout>
+        
+        
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">"
+
+    <PreferenceScreen
+        android:key="gateway_credential"
+        android:summary="Enter Login Details"        
+        android:title="Gateway Details" >
+        
+        <PreferenceCategory
+            android:key="youmint_pref_key"
+            android:title="Enter youmint Details " >
+            <EditTextPreference
+                android:key="youmint_user_id_key"
+                android:summary="username"
+                android:title="youmint" >
+            </EditTextPreference>
+            <EditTextPreference
+                android:key="youmint_password_key"
+                android:summary="password"
+                android:title="youmint" >
+            </EditTextPreference>
+        </PreferenceCategory>
+        
+    </PreferenceScreen>
+
+    <ListPreference
+        android:entries="@array/list"
+        android:entryValues="@array/lvalue"
+        android:key="default_gateway_key"
+        android:summary="Choose Default Gateway"        
+        android:title="Default Gateway" >
+    </ListPreference>
+          
+</PreferenceScreen>

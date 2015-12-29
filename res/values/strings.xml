@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FreeSMS</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="to">To</string>
+    <string name="etcontacthint">Enter Contact Number</string>
+    <string name="etmessagehint">Enter Message</string>
+    <string name="stngcd">Setting</string>
+    <string name="gcd">Groups</string>
+    <string name="ccd">Contacts</string>
+    <string name="sndcd">Send</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_group">Groups</string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="contactDetail">MailTo:vikashkumar.kumar77@gmail.com</string>
+    <string name="CautionParagraph">Normal paid sms mode may cost you more. Delivery of sms solely depend on various factor like network status, correct login details. This app provide no warranty to deliver sms to recipient, you use it at your own risk. your Login details wil be saved in plain text format"</string>
+    <string name="CautionHeading">Note/Caution</string>
+    <string name="featureSettingHeading">Feature/Setting</string>
+    <string name="featureSettingParagraph">Setting provide ability to choose deafault gateway, set login detail for gateway, get help e.t.c. choose default gateway and set login detail for each gateway</string>
+    <string name="featureScheduleHeading">Feature/Schedule sms</string>
+    <string name="featureScheduleParagraph">To schedule sms, Enter phone number, message and click clock icon, this will lead to scheduler page in which you have to select date and time, and finally clik schedule button</string>
+    <string name="introductionHeading">Introduction</string>
+    <string name="introductionParagraph">This is simple sms app to send sms. It has feature to send sms to single contact or group contact saved on your android phone. you can also use it to schedule sms on specific date and time</string>
+    <string name="featureSendHeading">Feature/Send sms</string>
+    <string name="featureSendParagraph">To send sms to single contact, enter phone no or select contact from contact list by tapping contact icon, write message and click send button. To send group sms, enter phone number sepereted by ; or select group by tapping group icon, write message and click send button</string>
+    <string name="requirementHeading">Requirement</string>
+    <string name="reqirementParagraph">You need to have account with online sms provider so that you can use this app to send free sms. you need to use sms provider login detail and message will be send through internet. If you dont have account or internet still you can use this app to send sms through normal paid sms but this may cost you too much</string>
+    <string name="title_activity_load_sent_msg">LoadSentMsgActivity</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+	<string name="main_empty_list">There is no recent conversation, write new message to start one.</string>
+	
+	
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Gateway Setting</item>
+        <item>Schedule SMS</item>
+        <item>Sent Messages</item>
+        <item>Change Theme</item>
+        <item>Share</item>
+        <item>Rate us</item>
+        <item>Help</item>
+        <item>About</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icon">
+        <item>@drawable/gateway_icon</item>
+        <item>@drawable/schedule_icon</item>
+        <item>@drawable/sent_msgs_icon</item>
+        <item>@drawable/changetheme_icon</item>
+        <item>@drawable/share_icon</item>
+        <item>@drawable/rateus_icon</item>
+        <item>@drawable/help_icon</item>
+        <item>@drawable/aboutus_icon</item>
+    </array>
+
+    <string name="title_activity_chat">ChatActivity</string>
+
+</resources>

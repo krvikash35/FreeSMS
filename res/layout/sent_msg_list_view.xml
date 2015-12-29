@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip">
+    
+    
+    	<ListView 
+        android:id="@+id/sentMsglist"       	        
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    	android:dividerHeight="20dp"/>
+    
+       	<TextView
+	        android:id="@+id/nametv"
+	        android:textStyle="bold"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+
+	    <TextView
+	        android:id="@+id/phonetv"
+	        android:layout_alignParentRight="true"
+	        android:textStyle="bold"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>       
+   
+	    
+	    <TextView
+	        android:id="@+id/inouttv"
+	        android:layout_below="@+id/nametv"
+	        android:layout_alignTop="@+id/msgtv"
+	        android:layout_alignParentLeft="true"
+	        android:layout_width="25dip"
+	        android:layout_height="12dip"/>
+	    
+	    <TextView
+	        android:id="@+id/msgtv"
+	        android:layout_below="@id/nametv"
+	        android:layout_toRightOf="@+id/inouttv"
+	        android:layout_marginLeft="10dip"
+	        android:layout_marginRight="10dip"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"/>    
+    
+
+    
+        <TextView
+	        android:id="@+id/datetv"
+	        android:textStyle="bold"
+	        android:layout_below="@id/msgtv"	
+	        
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>
+    
+	    <TextView
+	        android:id="@+id/timetv"
+	        android:layout_below="@id/msgtv"
+	        android:layout_alignParentRight="true"
+	        android:textStyle="bold"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"/>    
+   
+
+</RelativeLayout>

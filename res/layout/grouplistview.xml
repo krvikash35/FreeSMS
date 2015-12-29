@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"  
+        android:choiceMode="singleChoice"         
+        android:dividerHeight="3dip"       
+        android:gravity="center"/>
+    
+    <TextView 
+        android:id="@+id/groupnameid"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dip"
+        android:textSize="20sp"
+        />
+    
+</LinearLayout>

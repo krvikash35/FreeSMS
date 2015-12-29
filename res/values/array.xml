@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list">        
+        <item>youmint</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="lvalue">       
+        <item>youmint</item>
+        <item>normal</item>
+    </string-array>
+
+</resources>

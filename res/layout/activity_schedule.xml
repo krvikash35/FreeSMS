@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+		    <TextView
+		        android:id="@+id/textView1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="To" />
+		
+		    <TextView
+		        android:id="@+id/toet"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"		        
+		        android:layout_marginLeft="25dp" />
+		
+		    <TextView
+		        android:id="@+id/textView2"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Message" />
+		
+		    <TextView
+		        android:id="@+id/msget"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:maxHeight="100dp" />
+		
+		    <TextView
+		        android:id="@+id/textView3"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Date" />
+		
+		    <Button
+		        android:id="@+id/buttonDateSetter"
+		        android:layout_width="236dp"
+		        android:layout_height="60dp"
+		        android:layout_gravity="center"
+		        android:onClick="showDateSetterDialog"
+		        android:text="Click to set Date" />
+		
+		    <TextView
+		        android:id="@+id/textView4"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:textStyle="bold"
+		        android:text="Time" />
+		
+		    <Button
+		        android:id="@+id/buttonTimeSetter"
+		        android:layout_width="237dp"
+		        android:layout_height="60dp"
+		        android:layout_gravity="center"
+		        android:onClick="showTimeSetterDialog"
+		        android:text="Click to set Time" />
+		
+		    <RelativeLayout android:layout_width="wrap_content"
+		        android:layout_marginTop="20dp"
+		        android:layout_height="wrap_content">
+		        
+		        <Button
+		            android:id="@+id/schbutton"
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"	  	            
+		            android:background="@drawable/ok_schedule_icon"
+		            android:onClick="schedule" />
+		
+		        <Button
+		            android:id="@+id/cancelScheduleButton"
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:layout_centerHorizontal="true"
+		            android:background="@drawable/cancel_schedule_icon"
+		            android:onClick="cancelCurrentSchedule" />
+		        
+		        <Button
+		            android:id="@+id/currentScheduleButton"
+		            android:layout_width="75dp"
+		            android:layout_height="75dp"
+		            android:layout_alignParentRight="true"
+		            android:background="@drawable/show_schedule_icon"
+		            android:onClick="showCurrentSchedule" />
+		        
+			</RelativeLayout>
+		    
+		</LinearLayout>
+</ScrollView>
+
